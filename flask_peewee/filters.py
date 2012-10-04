@@ -44,7 +44,9 @@ FIELDS_TO_LOOKUPS = {
     'text': ['eq', 'icontains', 'istartswith'],
     'numeric': ['eq', 'ne', 'lt', 'lte', 'gt', 'gte', 'in'],
     'boolean': ['eq'],
-    'datetime': ['today', 'yesterday', 'this_week', 'lte_days_ago', 'gte_days_ago', 'year_eq', 'year_lt', 'year_gt'],
+    'datetime': ['eq', 'ne', 'lt', 'lte', 'gt', 'gte', 'in', 'today',
+                'yesterday', 'this_week', 'lte_days_ago', 'gte_days_ago',
+                'year_eq', 'year_lt', 'year_gt'],
     'time': [],
 }
 
